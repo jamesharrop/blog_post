@@ -23,7 +23,7 @@ def create_file(*, post_title_text):
     file.write("layout: post\n")
     file.write("title: \"" + post_title_text + "\"\n")
     file.write("date: " + date_text + "\n")
-    file.write("categories: for_feed\n")
+    file.write("categories: \n")
     file.write("---\n")
     file.close()
     print("File created")
